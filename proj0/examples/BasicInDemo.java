@@ -9,14 +9,13 @@ public class BasicInDemo {
 
 		/* Compare the calls below to the contents of BasicInDemo_input_file.txt */
 
-		int firstItemInFile = in.readInt();
-		double secondItemInFile = in.readDouble();
+		/*int firstItemInFile = in.readInt();
+		double secondItemInFile = in.readDouble();*/
 		String thirdItemInFile = in.readString();
 		String fourthItemInFile = in.readString();
 		double fifthItemInFile = in.readDouble();
 
-		System.out.println("The file contained "  + firstItemInFile + ", " + 
-			               secondItemInFile + ", " + thirdItemInFile + ", " +
+		System.out.println(thirdItemInFile + ", " +
 			               fourthItemInFile + ", and " + fifthItemInFile);
 	}
 } 
